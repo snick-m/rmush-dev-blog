@@ -25,6 +25,7 @@ collections:
           default: "{{now}}",
           date_format: "MM-DD-YYYY",
           time_format: "HH:mm",
+          format: "YYYY-MM-DD HH:mm:ss",
         }
       - {
           label: "Featured Image",
