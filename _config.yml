@@ -9,40 +9,43 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: America/Toronto
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Mushfiqur Rahman # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: The journeys of a Bangladeshi software developer with big dreams. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Join me on my journey into the realm of software (and sometimes hardware)
+  to learn and read up on the vast variety of projects I find myself involved in
+  all the time. From simple projects like quote generator to complex bipedal robots -
+  I'm trying it all. If you love coding, you'll probably love this.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://rmush.dev"
 
 github:
-  username: github_username # change to your GitHub username
+  username: snick-m # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: mushfiqrrm # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Mushfiqur Rahman
+  email: realmrahman.19@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://twitter.com/mushfiqrrm # change to your Twitter homepage
+    - https://github.com/snick-m # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/mushfiqrrm
 
 # Site Verification Settings
 webmaster_verifications:
