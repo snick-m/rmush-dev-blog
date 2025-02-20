@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: snick-m/rmush-dev-blog
+  base_url: https://decap.rmush.dev
   branch: main
 
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
