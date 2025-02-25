@@ -98,14 +98,14 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn:
+cdn: https://res.cloudinary.com/mushfiqr/image/upload
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "assets/img/avatar.jpg"
+avatar: "avatar_uumagf.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: "assets/img/avatar.jpg" # string, local or CORS resources
+social_preview_image: "avatar_uumagf.jpg" # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
