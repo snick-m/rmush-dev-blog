@@ -3,8 +3,6 @@ icon: fas fa-shield-halved
 order: 5
 ---
 
-# Privacy Policy
-
 Last Updated: February 2025
 
 At Mushfiqur Rahman's Dev Blog, we are committed to protecting your privacy. This privacy policy explains how we collect, use, and protect your information when you visit our website. By using this site, you agree to the collection and use of information in accordance with this policy.
@@ -13,13 +11,13 @@ At Mushfiqur Rahman's Dev Blog, we are committed to protecting your privacy. Thi
 
 We respect your privacy and collect minimal data to understand how our site is used. We do not collect any personally identifiable information (PII).
 
-### 1.1 Web Analytics
+#### 1.1 Web Analytics
 We use **GoatCounter** and **Cloudflare Web Analytics** to monitor and analyze web traffic. These services help us understand how visitors interact with our content without collecting any personal data.
 
 - **GoatCounter**: Collects non-personally identifiable information, such as the number of visits, referring websites, and general geographic location based on IP addresses (anonymized). It does not use cookies and complies with GDPR.
 - **Cloudflare Web Analytics**: Provides insights into website performance, including page views, referrer information, and general traffic data. It does not track individual users and avoids the use of cookies.
 
-### 1.2 Cookies
+#### 1.2 Cookies
 We do not use cookies for tracking purposes on our website. Neither **GoatCounter** nor **Cloudflare Web Analytics** uses cookies to collect personal data, and there is no need for cookie consent.
 
 ## 2. How We Use Your Information
