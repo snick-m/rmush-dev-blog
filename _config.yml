@@ -28,6 +28,11 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://rmush.dev"
 
+sitemap:
+  exclude:
+    - /404.html
+  include_posts: true
+
 github:
   username: snick-m # change to your GitHub username
 
@@ -47,6 +52,9 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/mushfiqrrm
 
+plugins:
+  - jekyll-sitemap
+
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
@@ -64,7 +72,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: rmush-dev
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -78,7 +86,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: goatcounter # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
