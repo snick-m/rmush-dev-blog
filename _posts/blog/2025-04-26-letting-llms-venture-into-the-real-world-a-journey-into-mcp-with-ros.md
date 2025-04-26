@@ -13,13 +13,13 @@ tags:
   - gazebo
   - simulation
 date: 2025-04-26 01:52:00
-thumbnail: /images/uploads/new-project.png
+thumbnail: https://res.cloudinary.com/mushfiqr/image/upload/v1745650684/New_Project_nftb4s.png
 ---
 Recently all the MCP hype had me confused a little. Initially I thought, it's just function calling - we already have , that. Why MCP? But, never got around to actually exploring it.\
 \
 Until, one post from my network on LinkedIn told me about a real world use scenario where he used MCP to achieve some pretty cool tasks really explained why MCPs are the next thing. Immediately I thought back to this idea I had of using OpenAI API to see and control a Mars Rover prototype at Toronto MetRobotics. I ran a dry test by providing ChatGPT a structured response format and telling it to generate a random set of movements every time it was prompted in that thread. This was before I found out about function calling and schema responses cause I'd never played with the OpenAI API, so I just ended up doing this on ChatGPT. I was delighted to see it could stick to the exact specifications I provided for the control commands. But due to other issues, never got around to doing an actual test on the rover.
 
-![](/images/uploads/image_2025-04-26_024815625.png "Orion (the rover) doing some Auton stuff (also cause I'm in the background, 👋🏼)")
+![](https://res.cloudinary.com/mushfiqr/image/upload/v1745650743/image_2025-04-26_025902788_odckwg.png "Orion (the rover) doing some Auton stuff (also cause I'm in the background, 👋🏼)")
 
 Back to the present, by now the Controls sub-team at TMR had implemented ROS on the rover system so I thought instead of one specific thread, I could just make an MCP for the rover and any LLM would be able to see through it's senses and control it too. **BETTER YET-** I make an introspective MCP package for ROS that will be able to create a dynamic MCP server based on all the topics that are being published/subscribed to on the ROS network.
 
@@ -29,11 +29,11 @@ I immediately got to building. I'm gonna skip the technical jargon on this post 
 
 Fast forward a day, I had the first working demo of an MCP server that could introspect the ROS topics and provide the last received message on any given topic (I was using Turtlebot3 simulation for this). As my ROS was on WSL2 I had to use a [proxy thingy](https://developers.cloudflare.com/agents/guides/remote-mcp-server/#connect-your-remote-mcp-server-to-claude-and-other-mcp-clients-via-a-local-proxy) to get SSE transport thing working with Claude desktop but eventually got it connected. It was the moment of truth-
 
-![](/images/uploads/image_2025-04-26_022724665.png "Claude seeing stuff from LIDAR scan data")
+![](https://res.cloudinary.com/mushfiqr/image/upload/v1745651099/image_2025-04-26_030457967_dlelyo.png "Claude seeing stuff from LIDAR scan data")
 
 as you'll see in the screenshot, Claude was able to correctly request the data for the `/scan` **AND** understand it properly!!! At this point, my mind was already blown (even though I kinda expected it to be able to do this). Next up I asked it to count the number of objects it sees and -
 
-![](/images/uploads/image_2025-04-26_023325202.png "Claude desktop counting objects it sees from /scan ROS topic")
+![](https://res.cloudinary.com/mushfiqr/image/upload/v1745650796/image_2025-04-26_025955464_mo3frh.png "Claude desktop counting objects it sees from /scan ROS topic")
 
 would you look at that, it can do that too. This made me even more excited to implement the publishers and prompt it to just do stuff. But it was pretty late, so I went to sleep.
 
